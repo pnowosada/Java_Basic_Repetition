@@ -14,5 +14,8 @@ public class Main_1SDA {
         System.out.println("\nExercise 4 :");
         int [] array=Exercise_4.swapNumbers(1,2,3,4);
         Exercise_4.printTable(array);
+
+        System.out.println("\nExercise 5 :");
+        Exercise_5.findTopAndMin(55,2,0,58,1);
     }
 }
