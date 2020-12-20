@@ -11,10 +11,5 @@ public class Exercise_4 {
         array[array.length-1]=array[0];
         return array;
     }
-    public static void printTable(int... table){
-        for(int element:table){
-            System.out.print("["+element+"]");
-        }
-        System.out.println();
-    }
+
 }
