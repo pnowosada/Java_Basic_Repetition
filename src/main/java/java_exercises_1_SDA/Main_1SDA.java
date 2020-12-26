@@ -24,5 +24,8 @@ public class Main_1SDA {
 
         System.out.println("\nExercise 7 :");
         TablePrinter.printTable(Exercise_7.arithmeticSequence(1, 2, 10));
+
+        System.out.println("\nExercise 8 :");
+        System.out.println(Exercise_8.isArithmetic(2,1,7));
     }
 }
