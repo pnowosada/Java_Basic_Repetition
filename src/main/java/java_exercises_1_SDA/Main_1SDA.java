@@ -30,5 +30,8 @@ public class Main_1SDA {
 
         System.out.println("\nExercise 9 :");
         System.out.println(Exercise_9.myModulo(3,5));
+
+        System.out.println("\nExercise 10 :");
+        System.out.println(Exercise_10.isModulo(7,5));
     }
 }
