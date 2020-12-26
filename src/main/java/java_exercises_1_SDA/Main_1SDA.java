@@ -27,5 +27,8 @@ public class Main_1SDA {
 
         System.out.println("\nExercise 8 :");
         System.out.println(Exercise_8.isArithmetic(2,1,7));
+
+        System.out.println("\nExercise 9 :");
+        System.out.println(Exercise_9.myModulo(3,5));
     }
 }
