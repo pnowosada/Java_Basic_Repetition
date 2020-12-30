@@ -1,6 +1,4 @@
-package java_exersises_2_SDA;
-
-import java.util.Scanner;
+package java_exerscises_2_SDA;
 
 public class Exersise_1 {
     public static void weekName(int numberOfWeekDay) {

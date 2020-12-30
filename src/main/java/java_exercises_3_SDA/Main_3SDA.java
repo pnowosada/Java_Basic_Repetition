@@ -1,7 +1,63 @@
 package java_exercises_3_SDA;
 
+import java_exercises_3_SDA.Animals.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main_3SDA {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+
+        System.out.println("Cat 1:");
+        Cat cat1 = new Cat("Tom");
+        cat1.makeSound();
+        System.out.println("Cat 2:");
+        Cat cat2 = new Cat("Jerry");
+        cat2.makeSound();
+        System.out.println("\n");
+        List<Cat> catList = new ArrayList<>();
+        catList.add(cat1);
+        catList.add(cat2);
+        System.out.println("\n");
+        for (Cat cat : catList) {
+            cat.makeSound();
+        }
+        cat1.eatMouse();
+        cat2.eatMouse();
+        ///////////////////////////////
+        System.out.println("\nDog 1:");
+        Dog dog1 = new Dog("Bob");
+        dog1.makeSound();
+        System.out.println("\n");
+        System.out.println("Dog 2:");
+        Dog dog2 = new Dog("Berry");
+        dog2.makeSound();
+        //////////////////////////
+        System.out.println("\n");
+        List<Animal> animals=new ArrayList<>();
+        animals.add(cat1);
+        animals.add(cat2);
+        animals.add(dog1);
+        animals.add(dog2);
+        for (Animal animal:animals){
+            animal.makeSound();
+        }
+        ////////////////////
+        System.out.println("\nCar 1");
+        Car car1=new Car();
+        car1.move();
+        ////////////////////
+        System.out.println("\n");
+        Vet someVet=new Vet();
+        someVet.sayHello(cat1);
+        ////////////////////
+        System.out.println("\n");
+        Vet someDog=new Vet();
+        someDog.sayHello(dog1);
+        ////////////////////
+        System.out.println("\n");
+        someVet.universalSayHello(cat1);
+        someVet.universalSayHello(dog1);
+
     }
 }

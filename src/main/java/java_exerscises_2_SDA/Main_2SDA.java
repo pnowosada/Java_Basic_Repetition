@@ -1,4 +1,4 @@
-package java_exersises_2_SDA;
+package java_exerscises_2_SDA;
 
 public class Main_2SDA {
     public static void main(String[] args) {
