@@ -2,6 +2,7 @@ package java_exercises_1_mz.collection;
 
 public class Main {
     public static void main(String[] args) {
+/**************************************************************************************/
         System.out.println("Exercise 1");
         Exercise_1 myArray=new Exercise_1(25);
         myArray.addToArray();
@@ -10,6 +11,7 @@ public class Main {
         myArray.printArraySize();
         myArray.multiplication(35);
         myArray.printArray();
+/**************************************************************************************/
         System.out.println("Exercise 2");
         Exercise_2 myList=new Exercise_2();
         myList.addElemList(1,22,53,4);
@@ -17,6 +19,13 @@ public class Main {
         System.out.println(myList.getFirst());
         System.out.println(myList.getLast());
         myList.printList();
-
+/****************************************************************************************/
+        System.out.println("Exercise 2");
+        Exercise_3 myList2=new Exercise_3();
+        myList2.addElementList(1.1,2.1,1.1,1.1,3.3,4.4,1.1,1.1,3.3);
+        System.out.println("Adding the first and penultimate expression: "+myList2.additionSecondAndLast());
+        System.out.println("Multiply the first and last expressions: "+myList2.multiplicationFirstAndLast());
+        System.out.println("Dividing the first and penultimate expressions: "+myList2.divideFirstAndPenultimate());
+/****************************************************************************************/
     }
 }
