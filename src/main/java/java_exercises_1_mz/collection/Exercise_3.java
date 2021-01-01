@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Exercise_3 {
-    List<Double> list=new ArrayList<Double>();
+    List<Double> list=new ArrayList<>();
     public List<Double> addElementList(double... elements){
         for (double element : elements) {
             list.add((double) element);

@@ -20,12 +20,18 @@ public class Main {
         System.out.println(myList.getLast());
         myList.printList();
 /****************************************************************************************/
-        System.out.println("Exercise 2");
+        System.out.println("Exercise 3");
         Exercise_3 myList2=new Exercise_3();
         myList2.addElementList(1.1,2.1,1.1,1.1,3.3,4.4,1.1,1.1,3.3);
         System.out.println("Adding the first and penultimate expression: "+myList2.additionSecondAndLast());
         System.out.println("Multiply the first and last expressions: "+myList2.multiplicationFirstAndLast());
         System.out.println("Dividing the first and penultimate expressions: "+myList2.divideFirstAndPenultimate());
 /****************************************************************************************/
+        System.out.println("Exercise 4");
+        Exercise_4 myList3=new Exercise_4();
+        myList3.addNameList("Jan","Tim","Jim","Tom","Jimmy");
+        myList3.printNameList();
+/****************************************************************************************/
+
     }
 }
