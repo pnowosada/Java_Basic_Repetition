@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Exercise_4 {
-    List<String> nameList=new ArrayList<>();
+    ArrayList<String> nameList=new ArrayList<>();
     public List<String> addNameList(String... elements){
         for(String element:elements){
             nameList.add(element);

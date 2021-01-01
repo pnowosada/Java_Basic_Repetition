@@ -32,6 +32,15 @@ public class Main {
         myList3.addNameList("Jan","Tim","Jim","Tom","Jimmy");
         myList3.printNameList();
 /****************************************************************************************/
-
+        Exercise_5 myList4= new Exercise_5();
+        System.out.println("\nExercise 5:");
+        //names:
+        // Jim
+        // John
+        // Tim
+        // Tom
+        // ED
+        myList4.writeNames();
+        myList4.printTable();
     }
 }
