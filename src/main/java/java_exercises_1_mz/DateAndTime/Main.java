@@ -20,5 +20,8 @@ public class Main {
         System.out.println("Exercise 14:");
         Exercise_14 exercise_14=new Exercise_14();
         exercise_14.showDateTime();
+        System.out.println("Exercise 15:");
+        Exercise_15 exercise_15=new Exercise_15();
+        exercise_15.showDateTime();
     }
 }
