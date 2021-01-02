@@ -8,5 +8,11 @@ public class Main {
         System.out.println("Exercise 10:");
         Exercise_10 exercise_10=new Exercise_10();
         exercise_10.showDate();
+        System.out.println("Exercise 11:");
+        Exercise_11 exercise_11=new Exercise_11();
+        exercise_11.setLocalDateTime();
+        System.out.println("Exercise 12:");
+        Exercise_12 exercise_12=new Exercise_12();
+        exercise_12.periodOfTime();
     }
 }
