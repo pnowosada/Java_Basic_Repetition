@@ -42,5 +42,11 @@ public class Main {
         // ED
         myList4.writeNames();
         myList4.printTable();
+/****************************************************************************************/
+        Exercise_6 myList5=new Exercise_6();
+        System.out.println("\nExercise 6:");
+        myList5.enterNumberAndRandom();
     }
+
+
 }
