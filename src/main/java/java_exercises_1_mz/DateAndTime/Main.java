@@ -14,5 +14,11 @@ public class Main {
         System.out.println("Exercise 12:");
         Exercise_12 exercise_12=new Exercise_12();
         exercise_12.periodOfTime();
+        System.out.println("Exercise 13:");
+        Exercise_13 exercise_13=new Exercise_13();
+        exercise_13.periodOfTime();
+        System.out.println("Exercise 14:");
+        Exercise_14 exercise_14=new Exercise_14();
+        exercise_14.showDateTime();
     }
 }
